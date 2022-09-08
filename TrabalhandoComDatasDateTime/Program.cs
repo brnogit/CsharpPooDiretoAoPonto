@@ -9,6 +9,13 @@ namespace TrabalhandoComDatasDateTime
             var now = DateTime.Now;
             var today = DateTime.Today;
 
+            var threeDaysAgo = today.AddDays(-3);
+            //var threeDaysAgo = now.AddDays(-3);
+            var sixMonthsLater = today.AddMonths(6);
+            var twoYearsLater = today.AddYears(2);
+
+            
+
             Console.ReadKey();
         }
     }
