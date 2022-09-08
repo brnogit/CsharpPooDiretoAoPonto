@@ -17,6 +17,22 @@ namespace TrabalhandoComDatasDateTime
             var shortDate = now.ToShortDateString();
             var longDate = now.ToLongDateString();
 
+            var date = now.Date;
+            var day = now.Day;
+            var month = now.Month;
+            var year = now.Year;
+            var hour = now.Hour;
+            var minute = now.Minute;
+            var second = now.Second;
+
+            var dayOfWeek = now.DayOfWeek;
+
+            if(dayOfWeek == DayOfWeek.Saturday || dayOfWeek == DayOfWeek.Sunday)
+            {
+                Console.WriteLine("É fim de semana");
+            }
+
+            var dayOfYear = now.DayOfYear;
             Console.ReadKey();
         }
     }
