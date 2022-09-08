@@ -6,7 +6,10 @@ namespace TrabalhandoComDatasDateTime
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var now = DateTime.Now;
+            var today = DateTime.Today;
+
+            Console.ReadKey();
         }
     }
 }
