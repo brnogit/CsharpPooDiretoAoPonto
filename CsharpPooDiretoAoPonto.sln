@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabalhandoComDatasFormatac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhandoComDiretorios", "TrabalhandoComDiretorios\TrabalhandoComDiretorios.csproj", "{D915E099-1FD6-42F8-8306-89DFFD1A2564}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhandoComArquivos", "TrabalhandoComArquivos\TrabalhandoComArquivos.csproj", "{54A2B66D-046C-4AB1-B3BE-791FCDFFD35D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D915E099-1FD6-42F8-8306-89DFFD1A2564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D915E099-1FD6-42F8-8306-89DFFD1A2564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D915E099-1FD6-42F8-8306-89DFFD1A2564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A2B66D-046C-4AB1-B3BE-791FCDFFD35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A2B66D-046C-4AB1-B3BE-791FCDFFD35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A2B66D-046C-4AB1-B3BE-791FCDFFD35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A2B66D-046C-4AB1-B3BE-791FCDFFD35D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
