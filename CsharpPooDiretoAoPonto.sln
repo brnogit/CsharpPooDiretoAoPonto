@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabalhandoComArquivos", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugandoAplicacoes", "DebugandoAplicacoes\DebugandoAplicacoes.csproj", "{1FD5EFED-BC2C-40B6-9D94-AE2567558591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratandoExcecoes", "TratandoExcecoes\TratandoExcecoes.csproj", "{1EB07135-5E33-4A65-8B8D-68BED38EB83E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1FD5EFED-BC2C-40B6-9D94-AE2567558591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD5EFED-BC2C-40B6-9D94-AE2567558591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD5EFED-BC2C-40B6-9D94-AE2567558591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB07135-5E33-4A65-8B8D-68BED38EB83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB07135-5E33-4A65-8B8D-68BED38EB83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB07135-5E33-4A65-8B8D-68BED38EB83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB07135-5E33-4A65-8B8D-68BED38EB83E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
