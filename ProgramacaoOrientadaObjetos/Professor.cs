@@ -13,5 +13,14 @@ namespace ProgramacaoOrientadaObjetos
         }
         public List<string> Turmas { get; private set; }
         public decimal Salario { get; private set; }
+
+        public override void SeApresentar()
+        {
+            base.SeApresentar();
+
+            var turmas = string.Join(',', Turmas);
+
+            Console.WriteLine($"Meu salário é {Salario}, e ensino para as turmas {turmas}");
+        }
     }
 }
