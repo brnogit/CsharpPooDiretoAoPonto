@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProgramacaoOrientadaObjetos
 {
-    class Estudante
+    public class Estudante
     {
     }
 }
